@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mahdy Shuaib</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="./js/disable-zoom.js"></script>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/intro.css">
+	<link rel="stylesheet" type="text/css" href="./css/scroll-down-arrow.css">
+	<link rel="stylesheet" type="text/css" href="./css/footer.css">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-ws-32x32.png">
+</head>
+<body>
+	<div id="sbu-image"></div>
+	<div id="grid-overlay">
+		<div id="intro-container">
+			<div id="intro-name">
+				Mahdy <span class="avoid-wrap">Shuaib</span>
+			</div>
+			<hr id="intro-divider">
+			<div id="intro-text">
+				Computer Science Student and <span class="avoid-wrap">Software Developer</span>
+			</div>
+			<div id="intro-resume-button-container">
+				<button id="intro-resume-button" type="button" onclick="window.open('./resources/mahdy-shuaib-resume.pdf', '_blank');">
+					Resume
+				</button>
+			</div>
+		</div>
+		<div id="scroll-down-arrow-container">
+			<div id="scroll-down-arrow" onclick="$('html, body').animate({scrollTop: $('#footer').offset().top}, 1000)">
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="bio-container">
+			<div id="bio-title">
+				About Me
+			</div>
+			<hr id="bio-divider">
+			<div id="bio-text">
+				Hi, I'm a senior at Stony Brook University majoring in Computer Science. In my free time, I mentor a high school robotics team where students learn to design, build, and program robots to compete against other teams around the world. I am also a proud member of the Stony Brook University competitive programming team. My interests include algorithms, computer graphics, and robotics. I also enjoy rock climbing, cycling, and solving Rubik's Cubes. 
+			</div>
+		</div>
+		<div id="interests-container">
+			<a class="single-interest-container link-style" href="https://team7400.org" target="_blank">
+				<img src="./images/first.jpg" class="interest-image">
+				<div class="interest-text">
+					FIRST Robotics<br>Software Mentor
+				</div>
+			</a>
+			<a class="single-interest-container link-style" href="https://github.com/mshuaib99" target="_blank">
+				<img src="./images/github.png" class="interest-image">
+				<div class="interest-text">
+					Personal Projects
+				</div>
+			</a>
+			<a class="single-interest-container link-style" href="https://stonybrook.campuslabs.com/engage/organization/compprog" target="_blank">
+				<img src="./images/compprog.png" class="interest-image">
+				<div class="interest-text">
+					SBU Competitive<br>Programming Team
+				</div>
+			</a>
+		</div>
+	</div>
+</body>
+</html>
