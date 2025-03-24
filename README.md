@@ -1,3 +1,0 @@
-# mahdyshuaib.com
-
-Personal Website
